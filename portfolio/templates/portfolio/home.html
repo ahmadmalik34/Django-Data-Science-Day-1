@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}Home | Muhammad Ahmad{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div>
+        <p class="eyebrow">Day 1 · Personal Bio Site</p>
+        <h1>Upgrading my Django and data science stack with one focused project at a time.</h1>
+        <p class="lead">
+            I am Muhammad Ahmad, a recent graduate actively upskilling through a 50-day Django plus data science challenge and turning each day into a practical portfolio piece.
+        </p>
+
+        <div class="hero-actions">
+            <a class="button button-primary" href="{% url 'about' %}">About Me</a>
+            <a class="button button-secondary" href="{% url 'contact' %}">Contact</a>
+        </div>
+    </div>
+
+    <div class="hero-panel">
+        <article class="panel-card feature">
+            <p class="panel-label">Today’s build</p>
+            <h2 class="panel-title">A polished 3-page bio site with a warm orange and black identity.</h2>
+            <p class="panel-text">
+                Clean Django views, reusable templates, and a shared base layout that sets the tone for the roadmap ahead.
+            </p>
+        </article>
+
+        <div class="stat-grid">
+            <article class="stat-card">
+                <span class="stat-value">3</span>
+                <span class="stat-label">Pages</span>
+            </article>
+            <article class="stat-card">
+                <span class="stat-value">1</span>
+                <span class="stat-label">Shared base template</span>
+            </article>
+            <article class="stat-card">
+                <span class="stat-value">DS</span>
+                <span class="stat-label">Data science in the roadmap</span>
+            </article>
+            <article class="stat-card">
+                <span class="stat-value">50</span>
+                <span class="stat-label">Days of upskilling</span>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section-grid">
+    <article class="feature-card">
+        <h2>What I’m strengthening</h2>
+        <p>Django architecture, project structure, MTV, templates, static files, and the workflow that makes a project feel production-ready.</p>
+    </article>
+
+    <article class="feature-card">
+        <h2>How I’m building</h2>
+        <p>Small but intentional steps, reusable files, and a layout that can scale as I move deeper into APIs, ML, and data projects.</p>
+    </article>
+
+    <article class="feature-card">
+        <h2>Why this matters</h2>
+        <p>This first project is about sharpening fundamentals while building the kind of portfolio that can support backend, full-stack, and data-focused work.</p>
+    </article>
+</section>
+{% endblock %}
