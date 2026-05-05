@@ -15,7 +15,7 @@
 
 ## 🎯 Overview
 
-Your first proper Django project. Learn the MTV pattern, static files, templates, and how to structure a Django app — all without touching a database.
+Your first proper Django project. Master the MTV pattern, static files, templates, and how to structure a Django app — all without touching a database.
 
 **A three-page personal website built in pure Django.**
 
